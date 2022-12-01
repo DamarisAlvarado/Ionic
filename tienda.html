@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name= "autor" content="Equipo PRW DAMARIS,SAMANTHA,JORGE Y ERNESTO">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/imagenes/icono.png" />
+    <title>Ionic Electrónica</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script defer src="Productos.js"></script>
+    <script defer src="carrito.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-principal">
+        <img class="img-logo" src="/imagenes/icono.png">
+          <a class="logo" href="Index.html">Ionic Electrónica</a>
+          <ul>
+            <li><a class="nav-enlace" href="tienda.html">Tienda</a></li>
+            <li><a class="nav-enlace" href="contacto.html">Contacto</a></li>
+            <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
+          </ul>
+        </nav>
+      </header>
+      
+
+ 
+    <main id="contenedor-productos">
+
+    </main>
+
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Carrito</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+                <!-- los productos -->
+            </div>
+            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+            <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+            <button class="boton-agregar" onclick="ImprimirFactura()">Pagar</button>
+        </div>
+    </div>
+    
+</body>
+</html>

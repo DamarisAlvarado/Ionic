@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name= "autor" content="Equipo PRW DAMARIS,SAMANTHA,JORGE Y ERNESTO">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/imagenes/icono.png" />
+    <title>Ionic Electrónica</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/Contacto.css">
+    
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-principal">
+        <img class="img-logo" src="/imagenes/icono.png">
+          <a class="logo" href="Index.html">Ionic Electrónica</a>
+          <ul>
+            <li><a class="nav-enlace" href="tienda.html">Tienda</a></li>
+            <li><a class="nav-enlace" href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <main>
+        <h2>Contacto</h2>
+        <section id="contac">
+    
+          <form action="mailto:damarisarciga1520gmail.com" method="post" enctype="text/plain">
+    
+            <div class="Contenedor">
+              <div class="formularioG">
+    
+                <div>
+                  <label>Nombre</label><br>
+                  <input required id="inpN" type="text" placeholder=" Ingresa tu Nombre" />
+                </div>
+                <br>
+    
+                <div>
+                  <label>Número de Teléfono</label><br>
+                  <input id="inpN" type="tel" placeholder="Ingresa tu Número" />
+                </div>
+                <br>
+    
+                <div>
+                  <label>Email</label><br>
+                  <input required id="inpN" type="email" placeholder="Ingresa tu Email" />
+                </div>
+                <br>
+    
+                <div>
+                  <label>Municipio</label> <br>
+                  <select name="Muni">
+                    <option selected disabled>Selecciona una opción</option>
+                    <option value="1">San Pedro Garza García</option>
+                    <option value="2">Rayones</option>
+                    <option value="3">Montemorelos</option>
+                    <option value="4">Monterrey</option>
+                    <option value="5">Juárez</option>
+                    <option value="6">Lampazos de Naranjo</option>
+                    <option value="7">Guadalupe</option>
+                    <option value="8">General Escobedo</option>
+                  </select>
+                </div>
+                <br>
+    
+                <div class="genero" >
+                  <label>Género</label><br>
+                  <label></label><input class="radio" type="radio" name="hom" value="hom">Hombre
+                  <input class="radio"type="radio" name="Muj" value="Muj">Mujer
+                  <input class="radio"  type="radio" name="otro" value="Otro">Otro
+                </div>
+                <br>
+    
+                <div>
+                  <label>
+                    <input required type="checkbox" /> Al dar click aceptas todos nuestros
+                    términos y condiciones.
+                  </label>
+                </div>
+                <br>
+    
+                <div>
+                  <label>Comentarios</label><br>
+                  <textarea required rows="10" cols="50"></textarea>
+                </div>
+                <br>
+    
+                <div>
+                  <input id="subandrest" type="submit" value="Enviar" /> <br>
+                  <input id="subandrest" type="reset" name="borrar">
+                </div>
+                <br>
+                
+              </div>
+              <div>
+                <img  class="ima"src="https://img.freepik.com/fotos-premium/vendedor-mostrando-seleccion-cliente-equipo_94347-73.jpg?w=1060">
+              </div>
+    
+            </div>
+          </div>
+          </form>
+        </section>
+    
+      </main>
+    
+ 
+    
+</body>
+</html>

@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Covered+By+Your+Grace&family=Handlee&family=Poppins&display=swap');
+/*Sam explicas por encima esto es la parte que esta arriba la navegacion*/
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    }
+    *,*:before,*:after{
+      box-sizing: inherit;
+    }
+    html {
+      font-size: 62.5%;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-size: 16px;
+      font-family: 'Poppins', sans-serif;
+    
+    }
+       
+.header{
+   background: #44A08D;  
+  background: -webkit-linear-gradient(to right, #093637, #44A08D); 
+  background: linear-gradient(to right, #093637, #44A08D);
+  height: 8rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  
+    }
+  .nav-principal{
+    display: flex;
+    justify-content:space-between ;
+  }
+  .nav-enlace{
+      color: white;
+      text-transform: uppercase;
+  }
+ 
+  .nav-enlace:hover{
+    padding: 2.5rem;
+    transition: .5s;
+  }
+  
+  .logo{
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding: 0 5rem;
+    line-height: 8rem;
+    color: white;
+  
+  }
+  .img-logo{
+   height: 6.8rem;
+   width: 5.6rem;
+   margin-left: 5rem;
+   margin-top: 0.4rem;
+  }
+  ul{
+    display: flex;
+    margin-right: 4rem;
+  }
+  li{
+    font-size: 2.3rem;
+    margin: 0 2rem;
+    line-height: 8rem;
+  }
+
+
+
+
+
+/*Formulario sam esto es lo del formulario al igual explicalo muy rapido por el tiempo*/
+
+
+#inpN{
+    width: 25rem;
+    height: 5rem;
+  }
+  input{
+    border-radius: 2.5rem;
+    text-align: center;
+  }
+  #subandrest{
+    width: 25rem;
+    height: 5rem;
+    margin-top: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    background-color: #286b6ce7;
+   transition: all .3s;
+}
+#subandrest:hover {
+    cursor: pointer;
+    background-color: #f4d03f;
+}
+  select{
+    border-radius: 2.5rem;
+    text-align: center;
+    width: 25rem;
+    height: 5rem;
+    margin-top: 1rem;
+  }
+  option{
+    background-color: rgba(249, 237, 237, 0.2);
+    font-size: 1.8rem;
+    text-align: center;
+    
+  }
+  textarea{
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    border: solid grey;
+    margin-top: 2rem;
+    resize: none;
+   height: 15rem;
+   width: 45rem;
+   
+  }
+  .radio{
+   margin-top: 1rem;
+   margin-left: 2rem;
+   font-size: 25rem;
+  
+  }
+  .genero{
+    font-size: 2.3rem;
+  }
+  
+  
+  label{
+    display: block;
+    padding-left: 1rem;
+    text-indent: -1rem;
+    font-size: 2rem;
+  }
+  #contac{
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .Contenedor{
+    display: flex;
+    
+    margin-top: 8rem;
+    justify-content: space-between;
+  }
+  .formularioG{
+  width: 65rem;
+  padding-left: 1rem;
+  margin: 1rem;
+  display: block;
+  justify-content: space-between;
+  
+  }
+  .ima{
+    float: right;
+    width: 70rem;
+    margin-top: 5rem;
+    margin-right: 15rem;
+    height: 75rem;
+    border-radius: 10rem;
+  }
+
